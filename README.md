@@ -5,21 +5,21 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&weight=700&size=23&duration=2800&pause=900&color=F97316&center=true&vCenter=true&width=920&lines=appsec+but+make+it+clean%3Bthreat+models+%3E+trust+falls%3Bblue-team-coded+builds%3Bsecurity+UX+with+taste" alt="Aarohi Mohrir rotating intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&weight=700&size=23&duration=2800&pause=900&color=F97316&center=true&vCenter=true&width=920&lines=onion-mode+aesthetics%3Bsignal-only+systems%3Bappsec+after+midnight%3Bsecurity+UX+with+taste" alt="Aarohi Mohrir rotating intro" />
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/blue--team--coded-0ea5e9?style=for-the-badge&logo=icloud&logoColor=white" alt="blue-team-coded" />
-  <img src="https://img.shields.io/badge/automation%20goblin-14b8a6?style=for-the-badge&logo=gnubash&logoColor=white" alt="automation goblin" />
-  <img src="https://img.shields.io/badge/frontend%20with%20taste-f97316?style=for-the-badge&logo=figma&logoColor=white" alt="frontend with taste" />
-  <img src="https://img.shields.io/badge/threat%20model%20enjoyer-111827?style=for-the-badge&logo=datadog&logoColor=white" alt="threat model enjoyer" />
+  <img src="https://img.shields.io/badge/onion--mode-14b8a6?style=for-the-badge&logo=torbrowser&logoColor=white" alt="onion-mode" />
+  <img src="https://img.shields.io/badge/signal--only-f97316?style=for-the-badge&logo=signal&logoColor=white" alt="signal-only" />
+  <img src="https://img.shields.io/badge/interface%20not%20sludge-111827?style=for-the-badge&logo=figma&logoColor=white" alt="interface not sludge" />
 </p>
 
 <h1 align="center">hi, i'm Aarohi Mohrir</h1>
 
-<p align="center"><strong>cybersecurity engineer with blue-team energy, appsec instincts, and a mild obsession with interfaces that do not look miserable.</strong></p>
+<p align="center"><strong>cybersecurity engineer with blue-team instincts, onion-mode aesthetics, and zero patience for ugly security tooling.</strong></p>
 
-<p align="center">I build secure things that still feel good to use: auth flows, security automation, incident-response helpers, and the occasional UI that escapes the generic-dashboard curse.</p>
+<p align="center">I build secure systems that still feel sharp to use: auth flows, security automation, incident-response helpers, and interfaces that look more relay node than corporate dashboard.</p>
 
 <p align="center">
   <a href="https://github.com/Aa-Rho-Hi"><img src="https://img.shields.io/badge/GitHub-connect-181717?style=for-the-badge&amp;color=181717&amp;labelColor=111827&amp;logo=github&amp;logoColor=white" alt="GitHub badge" /></a>
@@ -43,7 +43,7 @@
   </a>
 </p>
 
-> secure by default. pretty on purpose. low-noise by design.
+> onion-mode visuals. signal-only systems. zero dashboard sludge.
 
 <table>
 <tr>
@@ -56,10 +56,10 @@
 Aarohi Mohrir (Aa-Rho-Hi)
 
 > current build arc
-auth flows with actual boundaries, IR automation with less dashboard sludge, security tooling with main-character UI
+auth flows with actual boundaries, IR automation with less dashboard sludge, security tooling with relay-node energy
 
 > operating principle
-High signal, low noise, secure by default, and pretty on purpose.
+High signal, low noise, secure by default, and dark enough to feel like a relay node.
 ```
 
 ## `currently_cooking`
@@ -71,12 +71,12 @@ High signal, low noise, secure by default, and pretty on purpose.
 </td>
 <td valign="top" width="42%">
 
-## `vibe_check`
+## `shadow_board`
 
 - appsec brain
 - blue-team energy
 - automation for people allergic to manual work
-- interfaces that do not look like dashboard sadness
+- relay-node visual taste
 - useful software > noisy software
 
 ## `build_philosophy`
@@ -150,7 +150,7 @@ High signal, low noise, secure by default, and pretty on purpose.
 </details>
 
 <details>
-<summary><strong>open tab if you also build weird good things</strong></summary>
+<summary><strong>relay://contact</strong></summary>
 
 Open to AppSec, security automation, and product-grade tooling collabs. If you build sharp things and care about signal, reach out through GitHub.
 
