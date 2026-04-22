@@ -26,12 +26,6 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Aa-Rho-Hi?tab=followers"><img src="https://img.shields.io/github/followers/Aa-Rho-Hi?style=for-the-badge&amp;logo=github&amp;label=Followers&amp;color=14b8a6&amp;labelColor=111827" alt="GitHub followers" /></a>
-<a href="https://github.com/Aa-Rho-Hi?tab=repositories"><img src="https://img.shields.io/github/stars/Aa-Rho-Hi?style=for-the-badge&amp;logo=github&amp;label=Total%20Stars&amp;color=f97316&amp;labelColor=111827" alt="GitHub stars" /></a>
-<a href="https://github.com/Aa-Rho-Hi"><img src="https://komarev.com/ghpvc/?username=Aa-Rho-Hi&amp;style=for-the-badge&amp;color=0f766e&amp;label=Profile%20Views" alt="Profile views" /></a>
-</p>
-
-<p align="center">
   <a href="https://github.com/Aa-Rho-Hi?tab=repositories">
     <img src="https://img.shields.io/badge/Repo%20Intel-111827?style=for-the-badge&logo=github&logoColor=white" alt="Repository intel" />
   </a>
