@@ -22,7 +22,7 @@
 <p align="center">I build secure systems that still feel sharp to use: auth flows, security automation, incident-response helpers, and interfaces that look more relay node than corporate dashboard.</p>
 
 <p align="center">
-  <a href="https://github.com/Aa-Rho-Hi"><img src="https://img.shields.io/badge/GitHub-connect-181717?style=for-the-badge&amp;color=181717&amp;labelColor=111827&amp;logo=github&amp;logoColor=white" alt="GitHub badge" /></a>
+  <a href="https://github.com/Aa-Rho-Hi"><img src="https://img.shields.io/static/v1?label=GitHub&amp;message=connect&amp;style=for-the-badge&amp;color=181717&amp;labelColor=111827&amp;logo=github&amp;logoColor=white" alt="GitHub badge" /></a>
 </p>
 
 <p align="center">
@@ -97,33 +97,33 @@ High signal, low noise, secure by default, and dark enough to feel like a relay 
 <table>
 <tr>
 <td valign="top" width="50%">
-  <a href="https://github.com/Aa-Rho-Hi/fortress-auth"><img src="https://img.shields.io/badge/main%20character-fortress-auth-f97316?style=for-the-badge&color=f97316&labelColor=111827&logo=github&logoColor=white" alt="fortress-auth" /></a><br/>
+  <a href="https://github.com/Aa-Rho-Hi/fortress-auth"><img src="https://img.shields.io/static/v1?label=main+character&message=fortress-auth&style=for-the-badge&color=f97316&labelColor=111827&logo=github&logoColor=white" alt="fortress-auth" /></a><br/>
   Trust issues, but productive: auth and access-control ideas built with defensive defaults.<br/><br/>
-  <img src="https://img.shields.io/badge/C%23-focus-1f2937?style=flat-square&color=1f2937&labelColor=0f766e" alt="C# badge" /> <img src="https://img.shields.io/badge/Auth-focus-1f2937?style=flat-square&color=1f2937&labelColor=0f766e" alt="Auth badge" /> <img src="https://img.shields.io/badge/AppSec-focus-1f2937?style=flat-square&color=1f2937&labelColor=0f766e" alt="AppSec badge" /> <img src="https://img.shields.io/github/stars/Aa-Rho-Hi/fortress-auth?style=flat-square&label=stars&color=f59e0b&labelColor=111827" alt="fortress-auth stars" />
+  <img src="https://img.shields.io/static/v1?label=C%23&message=focus&style=flat-square&color=1f2937&labelColor=0f766e" alt="C# badge" /> <img src="https://img.shields.io/static/v1?label=Auth&message=focus&style=flat-square&color=1f2937&labelColor=0f766e" alt="Auth badge" /> <img src="https://img.shields.io/static/v1?label=AppSec&message=focus&style=flat-square&color=1f2937&labelColor=0f766e" alt="AppSec badge" /> <img src="https://img.shields.io/github/stars/Aa-Rho-Hi/fortress-auth?style=flat-square&label=stars&color=f59e0b&labelColor=111827" alt="fortress-auth stars" />
 </td>
 <td valign="top" width="50%">
-  <a href="https://github.com/Aa-Rho-Hi/incident-response-automation"><img src="https://img.shields.io/badge/main%20character-incident-response-automation-f97316?style=for-the-badge&color=f97316&labelColor=111827&logo=github&logoColor=white" alt="incident-response-automation" /></a><br/>
+  <a href="https://github.com/Aa-Rho-Hi/incident-response-automation"><img src="https://img.shields.io/static/v1?label=main+character&message=incident-response-automation&style=for-the-badge&color=f97316&labelColor=111827&logo=github&logoColor=white" alt="incident-response-automation" /></a><br/>
   Less copy-paste chaos, more scripted response for security operations.<br/><br/>
-  <img src="https://img.shields.io/badge/Python-focus-1f2937?style=flat-square&color=1f2937&labelColor=0f766e" alt="Python badge" /> <img src="https://img.shields.io/badge/IR-focus-1f2937?style=flat-square&color=1f2937&labelColor=0f766e" alt="IR badge" /> <img src="https://img.shields.io/badge/Automation-focus-1f2937?style=flat-square&color=1f2937&labelColor=0f766e" alt="Automation badge" /> <img src="https://img.shields.io/github/stars/Aa-Rho-Hi/incident-response-automation?style=flat-square&label=stars&color=f59e0b&labelColor=111827" alt="incident-response-automation stars" />
+  <img src="https://img.shields.io/static/v1?label=Python&message=focus&style=flat-square&color=1f2937&labelColor=0f766e" alt="Python badge" /> <img src="https://img.shields.io/static/v1?label=IR&message=focus&style=flat-square&color=1f2937&labelColor=0f766e" alt="IR badge" /> <img src="https://img.shields.io/static/v1?label=Automation&message=focus&style=flat-square&color=1f2937&labelColor=0f766e" alt="Automation badge" /> <img src="https://img.shields.io/github/stars/Aa-Rho-Hi/incident-response-automation?style=flat-square&label=stars&color=f59e0b&labelColor=111827" alt="incident-response-automation stars" />
 </td>
 </tr>
 <tr>
 <td valign="top" width="50%">
-  <a href="https://github.com/Aa-Rho-Hi/MosaicRetrieverV1"><img src="https://img.shields.io/badge/main%20character-MosaicRetrieverV1-f97316?style=for-the-badge&color=f97316&labelColor=111827&logo=github&logoColor=white" alt="MosaicRetrieverV1" /></a><br/>
+  <a href="https://github.com/Aa-Rho-Hi/MosaicRetrieverV1"><img src="https://img.shields.io/static/v1?label=main+character&message=MosaicRetrieverV1&style=for-the-badge&color=f97316&labelColor=111827&logo=github&logoColor=white" alt="MosaicRetrieverV1" /></a><br/>
   Proof that technical workflows do not have to look spiritually beige.<br/><br/>
-  <img src="https://img.shields.io/badge/TypeScript-focus-1f2937?style=flat-square&color=1f2937&labelColor=0f766e" alt="TypeScript badge" /> <img src="https://img.shields.io/badge/UX-focus-1f2937?style=flat-square&color=1f2937&labelColor=0f766e" alt="UX badge" /> <img src="https://img.shields.io/badge/Frontend-focus-1f2937?style=flat-square&color=1f2937&labelColor=0f766e" alt="Frontend badge" /> <img src="https://img.shields.io/github/stars/Aa-Rho-Hi/MosaicRetrieverV1?style=flat-square&label=stars&color=f59e0b&labelColor=111827" alt="MosaicRetrieverV1 stars" />
+  <img src="https://img.shields.io/static/v1?label=TypeScript&message=focus&style=flat-square&color=1f2937&labelColor=0f766e" alt="TypeScript badge" /> <img src="https://img.shields.io/static/v1?label=UX&message=focus&style=flat-square&color=1f2937&labelColor=0f766e" alt="UX badge" /> <img src="https://img.shields.io/static/v1?label=Frontend&message=focus&style=flat-square&color=1f2937&labelColor=0f766e" alt="Frontend badge" /> <img src="https://img.shields.io/github/stars/Aa-Rho-Hi/MosaicRetrieverV1?style=flat-square&label=stars&color=f59e0b&labelColor=111827" alt="MosaicRetrieverV1 stars" />
 </td>
 <td valign="top" width="50%">
-  <a href="https://github.com/Aa-Rho-Hi/energy-consumption-optimizer"><img src="https://img.shields.io/badge/main%20character-energy-consumption-optimizer-f97316?style=for-the-badge&color=f97316&labelColor=111827&logo=github&logoColor=white" alt="energy-consumption-optimizer" /></a><br/>
+  <a href="https://github.com/Aa-Rho-Hi/energy-consumption-optimizer"><img src="https://img.shields.io/static/v1?label=main+character&message=energy-consumption-optimizer&style=for-the-badge&color=f97316&labelColor=111827&logo=github&logoColor=white" alt="energy-consumption-optimizer" /></a><br/>
   Optimizer brain in Python form: analytical thinking, cleaner decisions, less waste.<br/><br/>
-  <img src="https://img.shields.io/badge/Python-focus-1f2937?style=flat-square&color=1f2937&labelColor=0f766e" alt="Python badge" /> <img src="https://img.shields.io/badge/Optimization-focus-1f2937?style=flat-square&color=1f2937&labelColor=0f766e" alt="Optimization badge" /> <img src="https://img.shields.io/badge/Data-focus-1f2937?style=flat-square&color=1f2937&labelColor=0f766e" alt="Data badge" /> <img src="https://img.shields.io/github/stars/Aa-Rho-Hi/energy-consumption-optimizer?style=flat-square&label=stars&color=f59e0b&labelColor=111827" alt="energy-consumption-optimizer stars" />
+  <img src="https://img.shields.io/static/v1?label=Python&message=focus&style=flat-square&color=1f2937&labelColor=0f766e" alt="Python badge" /> <img src="https://img.shields.io/static/v1?label=Optimization&message=focus&style=flat-square&color=1f2937&labelColor=0f766e" alt="Optimization badge" /> <img src="https://img.shields.io/static/v1?label=Data&message=focus&style=flat-square&color=1f2937&labelColor=0f766e" alt="Data badge" /> <img src="https://img.shields.io/github/stars/Aa-Rho-Hi/energy-consumption-optimizer?style=flat-square&label=stars&color=f59e0b&labelColor=111827" alt="energy-consumption-optimizer stars" />
 </td>
 </tr>
 <tr>
 <td valign="top" width="50%">
-  <a href="https://github.com/Aa-Rho-Hi/Android_OTP"><img src="https://img.shields.io/badge/main%20character-Android_OTP-f97316?style=for-the-badge&color=f97316&labelColor=111827&logo=github&logoColor=white" alt="Android_OTP" /></a><br/>
+  <a href="https://github.com/Aa-Rho-Hi/Android_OTP"><img src="https://img.shields.io/static/v1?label=main+character&message=Android_OTP&style=for-the-badge&color=f97316&labelColor=111827&logo=github&logoColor=white" alt="Android_OTP" /></a><br/>
   A mobile OTP build from earlier secure-flow experiments in Java.<br/><br/>
-  <img src="https://img.shields.io/badge/Java-focus-1f2937?style=flat-square&color=1f2937&labelColor=0f766e" alt="Java badge" /> <img src="https://img.shields.io/badge/Android-focus-1f2937?style=flat-square&color=1f2937&labelColor=0f766e" alt="Android badge" /> <img src="https://img.shields.io/badge/OTP-focus-1f2937?style=flat-square&color=1f2937&labelColor=0f766e" alt="OTP badge" /> <img src="https://img.shields.io/github/stars/Aa-Rho-Hi/Android_OTP?style=flat-square&label=stars&color=f59e0b&labelColor=111827" alt="Android_OTP stars" />
+  <img src="https://img.shields.io/static/v1?label=Java&message=focus&style=flat-square&color=1f2937&labelColor=0f766e" alt="Java badge" /> <img src="https://img.shields.io/static/v1?label=Android&message=focus&style=flat-square&color=1f2937&labelColor=0f766e" alt="Android badge" /> <img src="https://img.shields.io/static/v1?label=OTP&message=focus&style=flat-square&color=1f2937&labelColor=0f766e" alt="OTP badge" /> <img src="https://img.shields.io/github/stars/Aa-Rho-Hi/Android_OTP?style=flat-square&label=stars&color=f59e0b&labelColor=111827" alt="Android_OTP stars" />
 </td>
 <td valign="top" width="50%"></td>
 </tr>
@@ -134,18 +134,18 @@ High signal, low noise, secure by default, and dark enough to feel like a relay 
 <details open>
 <summary><strong>stack i actually reach for</strong></summary>
 
-<img src="https://img.shields.io/badge/AppSec-actually%20use-0f766e?style=flat-square&color=0f766e&labelColor=111827" alt="AppSec badge" />
-<img src="https://img.shields.io/badge/Threat%20Modeling-actually%20use-0f766e?style=flat-square&color=0f766e&labelColor=111827" alt="Threat Modeling badge" />
-<img src="https://img.shields.io/badge/Security%20Automation-actually%20use-0f766e?style=flat-square&color=0f766e&labelColor=111827" alt="Security Automation badge" />
-<img src="https://img.shields.io/badge/Incident%20Response-actually%20use-0f766e?style=flat-square&color=0f766e&labelColor=111827" alt="Incident Response badge" />
-<img src="https://img.shields.io/badge/TypeScript-actually%20use-0f766e?style=flat-square&color=0f766e&labelColor=111827" alt="TypeScript badge" />
-<img src="https://img.shields.io/badge/Python-actually%20use-0f766e?style=flat-square&color=0f766e&labelColor=111827" alt="Python badge" />
-<img src="https://img.shields.io/badge/C%23-actually%20use-0f766e?style=flat-square&color=0f766e&labelColor=111827" alt="C# badge" />
-<img src="https://img.shields.io/badge/Java-actually%20use-0f766e?style=flat-square&color=0f766e&labelColor=111827" alt="Java badge" />
-<img src="https://img.shields.io/badge/React-actually%20use-0f766e?style=flat-square&color=0f766e&labelColor=111827" alt="React badge" />
-<img src="https://img.shields.io/badge/Node.js-actually%20use-0f766e?style=flat-square&color=0f766e&labelColor=111827" alt="Node.js badge" />
-<img src="https://img.shields.io/badge/JavaScript-actually%20use-0f766e?style=flat-square&color=0f766e&labelColor=111827" alt="JavaScript badge" />
-<img src="https://img.shields.io/badge/CSS-actually%20use-0f766e?style=flat-square&color=0f766e&labelColor=111827" alt="CSS badge" />
+<img src="https://img.shields.io/static/v1?label=AppSec&message=actually+use&style=flat-square&color=0f766e&labelColor=111827" alt="AppSec badge" />
+<img src="https://img.shields.io/static/v1?label=Threat+Modeling&message=actually+use&style=flat-square&color=0f766e&labelColor=111827" alt="Threat Modeling badge" />
+<img src="https://img.shields.io/static/v1?label=Security+Automation&message=actually+use&style=flat-square&color=0f766e&labelColor=111827" alt="Security Automation badge" />
+<img src="https://img.shields.io/static/v1?label=Incident+Response&message=actually+use&style=flat-square&color=0f766e&labelColor=111827" alt="Incident Response badge" />
+<img src="https://img.shields.io/static/v1?label=TypeScript&message=actually+use&style=flat-square&color=0f766e&labelColor=111827" alt="TypeScript badge" />
+<img src="https://img.shields.io/static/v1?label=Python&message=actually+use&style=flat-square&color=0f766e&labelColor=111827" alt="Python badge" />
+<img src="https://img.shields.io/static/v1?label=C%23&message=actually+use&style=flat-square&color=0f766e&labelColor=111827" alt="C# badge" />
+<img src="https://img.shields.io/static/v1?label=Java&message=actually+use&style=flat-square&color=0f766e&labelColor=111827" alt="Java badge" />
+<img src="https://img.shields.io/static/v1?label=React&message=actually+use&style=flat-square&color=0f766e&labelColor=111827" alt="React badge" />
+<img src="https://img.shields.io/static/v1?label=Node.js&message=actually+use&style=flat-square&color=0f766e&labelColor=111827" alt="Node.js badge" />
+<img src="https://img.shields.io/static/v1?label=JavaScript&message=actually+use&style=flat-square&color=0f766e&labelColor=111827" alt="JavaScript badge" />
+<img src="https://img.shields.io/static/v1?label=CSS&message=actually+use&style=flat-square&color=0f766e&labelColor=111827" alt="CSS badge" />
 
 </details>
 
