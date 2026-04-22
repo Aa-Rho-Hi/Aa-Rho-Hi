@@ -52,10 +52,10 @@
   <text x="136" y="254" fill="#f8fafc" font-family="monospace" font-size="68" font-weight="700">AAROHI</text>
   <text x="136" y="326" fill="#f8fafc" font-family="monospace" font-size="68" font-weight="700">MOHRIR</text>
   <rect x="136" y="356" width="320" height="10" rx="5" fill="url(#accent)" />
-  <text x="136" y="408" fill="#cbd5e1" font-family="monospace" font-size="22">appsec but make it clean</text>
-  <text x="136" y="446" fill="#cbd5e1" font-family="monospace" font-size="22">secure things</text>
-  <text x="136" y="484" fill="#cbd5e1" font-family="monospace" font-size="22">with actual taste</text>
-  <text x="136" y="522" fill="#cbd5e1" font-family="monospace" font-size="22">high-signal systems only</text>
+  <text x="136" y="404" fill="#cbd5e1" font-family="monospace" font-size="21">appsec but make it clean</text>
+  <text x="136" y="438" fill="#cbd5e1" font-family="monospace" font-size="21">secure things</text>
+  <text x="136" y="472" fill="#cbd5e1" font-family="monospace" font-size="21">with actual taste</text>
+  <text x="136" y="506" fill="#cbd5e1" font-family="monospace" font-size="21">high-signal only</text>
 
   <text x="680" y="164" fill="#94a3b8" font-family="monospace" font-size="18">CURRENT_STACK</text>
   <rect x="680" y="186" width="134" height="34" rx="17" fill="#0f172a" stroke="#22d3ee" />
