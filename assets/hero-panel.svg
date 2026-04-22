@@ -1,14 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
-  <title id="title">Aarohi Mohrir cybersecurity hero banner</title>
-  <desc id="desc">Dark command-center style profile banner with teal and orange accents, defensive engineering labels, and terminal-inspired panels.</desc>
+  <title id="title">Aarohi Mohrir creative cybersecurity hero banner</title>
+  <desc id="desc">A creative neon cyber profile banner with playful badges, UI panels, and appsec-focused messaging.</desc>
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#050816" />
-      <stop offset="55%" stop-color="#0b1220" />
-      <stop offset="100%" stop-color="#101826" />
+      <stop offset="0%" stop-color="#030712" />
+      <stop offset="50%" stop-color="#0b1120" />
+      <stop offset="100%" stop-color="#111827" />
     </linearGradient>
     <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#14b8a6" />
+      <stop offset="0%" stop-color="#22d3ee" />
+      <stop offset="50%" stop-color="#14b8a6" />
       <stop offset="100%" stop-color="#f97316" />
     </linearGradient>
     <linearGradient id="panel" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -29,46 +30,54 @@
 
   <rect width="1280" height="640" rx="36" fill="url(#bg)" />
   <rect width="1280" height="640" rx="36" fill="url(#grid)" />
+  <path d="M0 520 C240 420 390 610 620 520 S980 420 1280 560 L1280 640 L0 640 Z" fill="#08101d" opacity="0.85" />
 
-  <circle cx="1110" cy="116" r="128" fill="#14b8a6" opacity="0.08" filter="url(#glow)" />
+  <circle cx="1110" cy="116" r="128" fill="#22d3ee" opacity="0.08" filter="url(#glow)" />
   <circle cx="1080" cy="534" r="174" fill="#f97316" opacity="0.08" filter="url(#glow)" />
-  <circle cx="198" cy="124" r="10" fill="#14b8a6" />
-  <circle cx="232" cy="124" r="10" fill="#f97316" />
+  <circle cx="198" cy="124" r="10" fill="#22d3ee" />
+  <circle cx="232" cy="124" r="10" fill="#14b8a6" />
   <circle cx="266" cy="124" r="10" fill="#e5e7eb" opacity="0.85" />
 
   <rect x="72" y="84" width="1136" height="472" rx="28" fill="url(#panel)" stroke="#1f2937" stroke-width="2" />
   <rect x="104" y="116" width="506" height="406" rx="24" fill="#07101d" stroke="#243041" stroke-width="2" />
   <rect x="648" y="116" width="520" height="178" rx="24" fill="#07101d" stroke="#243041" stroke-width="2" />
   <rect x="648" y="320" width="520" height="202" rx="24" fill="#07101d" stroke="#243041" stroke-width="2" />
+  <rect x="836" y="82" width="182" height="42" rx="21" fill="#0b1322" stroke="#22d3ee" />
+  <rect x="1034" y="82" width="126" height="42" rx="21" fill="#0b1322" stroke="#f97316" />
+  <text x="870" y="109" fill="#e5e7eb" font-family="monospace" font-size="16">blue-team-coded</text>
+  <text x="1064" y="109" fill="#e5e7eb" font-family="monospace" font-size="16">appsec</text>
 
-  <text x="136" y="182" fill="#94a3b8" font-family="monospace" font-size="20">DEFENSIVE_MODE := ACTIVE</text>
+  <text x="136" y="182" fill="#94a3b8" font-family="monospace" font-size="20">STATUS := ONLINE</text>
   <text x="136" y="254" fill="#f8fafc" font-family="monospace" font-size="68" font-weight="700">AAROHI</text>
   <text x="136" y="326" fill="#f8fafc" font-family="monospace" font-size="68" font-weight="700">MOHRIR</text>
-  <rect x="136" y="356" width="274" height="10" rx="5" fill="url(#accent)" />
-  <text x="136" y="408" fill="#cbd5e1" font-family="monospace" font-size="28">threat-aware systems</text>
-  <text x="136" y="448" fill="#cbd5e1" font-family="monospace" font-size="28">defensive automation</text>
-  <text x="136" y="488" fill="#cbd5e1" font-family="monospace" font-size="28">UI for high-signal workflows</text>
+  <rect x="136" y="356" width="320" height="10" rx="5" fill="url(#accent)" />
+  <text x="136" y="408" fill="#cbd5e1" font-family="monospace" font-size="28">appsec but make it clean</text>
+  <text x="136" y="448" fill="#cbd5e1" font-family="monospace" font-size="28">secure things with actual taste</text>
+  <text x="136" y="488" fill="#cbd5e1" font-family="monospace" font-size="28">high-signal systems only</text>
 
   <text x="680" y="164" fill="#94a3b8" font-family="monospace" font-size="18">CURRENT_STACK</text>
-  <rect x="680" y="186" width="134" height="34" rx="17" fill="#0f172a" stroke="#14b8a6" />
-  <rect x="828" y="186" width="132" height="34" rx="17" fill="#0f172a" stroke="#f97316" />
+  <rect x="680" y="186" width="134" height="34" rx="17" fill="#0f172a" stroke="#22d3ee" />
+  <rect x="828" y="186" width="132" height="34" rx="17" fill="#0f172a" stroke="#14b8a6" />
   <rect x="974" y="186" width="138" height="34" rx="17" fill="#0f172a" stroke="#38bdf8" />
   <text x="726" y="208" fill="#e2e8f0" font-family="monospace" font-size="16">AppSec</text>
   <text x="876" y="208" fill="#e2e8f0" font-family="monospace" font-size="16">Python</text>
   <text x="1012" y="208" fill="#e2e8f0" font-family="monospace" font-size="16">TypeScript</text>
 
-  <text x="680" y="250" fill="#e5e7eb" font-family="monospace" font-size="22">&gt; shipping auth and response tooling</text>
-  <text x="680" y="280" fill="#e5e7eb" font-family="monospace" font-size="22">&gt; making security systems usable</text>
+  <text x="680" y="250" fill="#e5e7eb" font-family="monospace" font-size="22">&gt; threat models &gt; trust falls</text>
+  <text x="680" y="280" fill="#e5e7eb" font-family="monospace" font-size="22">&gt; no dashboard sadness allowed</text>
 
   <text x="680" y="368" fill="#94a3b8" font-family="monospace" font-size="18">SIGNAL</text>
   <rect x="680" y="392" width="210" height="16" rx="8" fill="#1f2937" />
-  <rect x="680" y="392" width="156" height="16" rx="8" fill="#14b8a6" />
+  <rect x="680" y="392" width="168" height="16" rx="8" fill="#22d3ee" />
   <rect x="680" y="436" width="246" height="16" rx="8" fill="#1f2937" />
-  <rect x="680" y="436" width="188" height="16" rx="8" fill="#f97316" />
+  <rect x="680" y="436" width="196" height="16" rx="8" fill="#14b8a6" />
   <rect x="680" y="480" width="280" height="16" rx="8" fill="#1f2937" />
   <rect x="680" y="480" width="228" height="16" rx="8" fill="url(#accent)" />
 
   <text x="972" y="406" fill="#cbd5e1" font-family="monospace" font-size="18">auth flows</text>
   <text x="972" y="450" fill="#cbd5e1" font-family="monospace" font-size="18">IR automation</text>
   <text x="972" y="494" fill="#cbd5e1" font-family="monospace" font-size="18">security UX</text>
+
+  <rect x="118" y="542" width="252" height="38" rx="19" fill="#0b1322" stroke="#243041" />
+  <text x="149" y="567" fill="#e5e7eb" font-family="monospace" font-size="16">secure by default // pretty on purpose</text>
 </svg>

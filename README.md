@@ -5,14 +5,21 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&weight=700&size=23&duration=2800&pause=900&color=F97316&center=true&vCenter=true&width=920&lines=Cybersecurity+engineering%3BThreat-aware+automation%3BAuth+and+defense+tooling%3BInterfaces+for+security+workflows" alt="Aarohi Mohrir rotating intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&weight=700&size=23&duration=2800&pause=900&color=F97316&center=true&vCenter=true&width=920&lines=appsec+but+make+it+clean%3Bthreat+models+%3E+trust+falls%3Bblue-team-coded+builds%3Bsecurity+UX+with+taste" alt="Aarohi Mohrir rotating intro" />
 </p>
 
-<h1 align="center">Aarohi Mohrir</h1>
+<p align="center">
+  <img src="https://img.shields.io/badge/blue--team--coded-0ea5e9?style=for-the-badge&logo=icloud&logoColor=white" alt="blue-team-coded" />
+  <img src="https://img.shields.io/badge/automation%20goblin-14b8a6?style=for-the-badge&logo=gnubash&logoColor=white" alt="automation goblin" />
+  <img src="https://img.shields.io/badge/frontend%20with%20taste-f97316?style=for-the-badge&logo=figma&logoColor=white" alt="frontend with taste" />
+  <img src="https://img.shields.io/badge/threat%20model%20enjoyer-111827?style=for-the-badge&logo=datadog&logoColor=white" alt="threat model enjoyer" />
+</p>
 
-<p align="center"><strong>Cybersecurity-focused builder working across defensive engineering, automation, and polished security interfaces.</strong></p>
+<h1 align="center">hi, i'm Aarohi Mohrir</h1>
 
-<p align="center">I like turning security ideas into usable systems: authentication flows, incident-response tooling, and interfaces that make high-stakes workflows clearer to operate.</p>
+<p align="center"><strong>cybersecurity engineer with blue-team energy, appsec instincts, and a mild obsession with interfaces that do not look miserable.</strong></p>
+
+<p align="center">I build secure things that still feel good to use: auth flows, security automation, incident-response helpers, and the occasional UI that escapes the generic-dashboard curse.</p>
 
 <p align="center">
   <a href="https://github.com/Aa-Rho-Hi"><img src="https://img.shields.io/badge/GitHub-connect-181717?style=for-the-badge&amp;color=181717&amp;labelColor=111827&amp;logo=github&amp;logoColor=white" alt="GitHub badge" /></a>
@@ -36,59 +43,86 @@
   </a>
 </p>
 
-## `/threat-model`
+> secure by default. pretty on purpose. low-noise by design.
+
+<table>
+<tr>
+<td valign="top" width="58%">
+
+## `status.exe`
 
 ```text
-> whoami
+> alias
 Aarohi Mohrir (Aa-Rho-Hi)
 
-> building
-auth and access-control systems, incident-response automation, security workflows with strong UI clarity
+> current build arc
+auth flows with actual boundaries, IR automation with less dashboard sludge, security tooling with main-character UI
 
-> approach
-Threat-aware engineering, clean UX, and automation that reduces analyst noise instead of creating more of it.
+> operating principle
+High signal, low noise, secure by default, and pretty on purpose.
 ```
 
-## Current Operations
+## `currently_cooking`
 
-- Defensive engineering around authentication, access control, and secure workflow design.
-- Security automation that helps incident response move faster with less manual drag.
-- Interfaces that make operational tooling clearer, calmer, and harder to misuse.
+- Defensive engineering around authentication, access control, and secure-by-default workflows.
+- Security automation that cuts manual drag instead of adding one more tab to babysit.
+- Product-grade interfaces for technical tools, because high-stakes workflows deserve better UX.
+
+</td>
+<td valign="top" width="42%">
+
+## `vibe_check`
+
+- appsec brain
+- blue-team energy
+- automation for people allergic to manual work
+- interfaces that do not look like dashboard sadness
+- useful software > noisy software
+
+## `build_philosophy`
+
+- If the workflow is ugly, noisy, or confusing, the system is not done.
+- I care about the threat model and the typography with equal seriousness.
+- The stack should fit the problem, the operator, and the chaos level.
+
+</td>
+</tr>
+</table>
 
 <a id="open-panels"></a>
 
 <details open>
-<summary><strong>Security Builds</strong></summary>
+<summary><strong>main character repos</strong></summary>
 
 <table>
 <tr>
 <td valign="top" width="50%">
-  <a href="https://github.com/Aa-Rho-Hi/fortress-auth"><img src="https://img.shields.io/badge/featured-fortress-auth-f97316?style=for-the-badge&color=f97316&labelColor=111827&logo=github&logoColor=white" alt="fortress-auth" /></a><br/>
-  Authentication and access-control ideas framed around defensive design.<br/><br/>
-  <img src="https://img.shields.io/badge/C%23-focus-1f2937?style=flat-square&color=1f2937&labelColor=0f766e" alt="C# badge" /> <img src="https://img.shields.io/badge/Auth-focus-1f2937?style=flat-square&color=1f2937&labelColor=0f766e" alt="Auth badge" /> <img src="https://img.shields.io/badge/Security-focus-1f2937?style=flat-square&color=1f2937&labelColor=0f766e" alt="Security badge" /> <img src="https://img.shields.io/github/stars/Aa-Rho-Hi/fortress-auth?style=flat-square&label=stars&color=f59e0b&labelColor=111827" alt="fortress-auth stars" />
+  <a href="https://github.com/Aa-Rho-Hi/fortress-auth"><img src="https://img.shields.io/badge/main%20character-fortress-auth-f97316?style=for-the-badge&color=f97316&labelColor=111827&logo=github&logoColor=white" alt="fortress-auth" /></a><br/>
+  Trust issues, but productive: auth and access-control ideas built with defensive defaults.<br/><br/>
+  <img src="https://img.shields.io/badge/C%23-focus-1f2937?style=flat-square&color=1f2937&labelColor=0f766e" alt="C# badge" /> <img src="https://img.shields.io/badge/Auth-focus-1f2937?style=flat-square&color=1f2937&labelColor=0f766e" alt="Auth badge" /> <img src="https://img.shields.io/badge/AppSec-focus-1f2937?style=flat-square&color=1f2937&labelColor=0f766e" alt="AppSec badge" /> <img src="https://img.shields.io/github/stars/Aa-Rho-Hi/fortress-auth?style=flat-square&label=stars&color=f59e0b&labelColor=111827" alt="fortress-auth stars" />
 </td>
 <td valign="top" width="50%">
-  <a href="https://github.com/Aa-Rho-Hi/incident-response-automation"><img src="https://img.shields.io/badge/featured-incident-response-automation-f97316?style=for-the-badge&color=f97316&labelColor=111827&logo=github&logoColor=white" alt="incident-response-automation" /></a><br/>
-  Security automation work aimed at speeding up operational response and reducing manual churn.<br/><br/>
-  <img src="https://img.shields.io/badge/Python-focus-1f2937?style=flat-square&color=1f2937&labelColor=0f766e" alt="Python badge" /> <img src="https://img.shields.io/badge/Security-focus-1f2937?style=flat-square&color=1f2937&labelColor=0f766e" alt="Security badge" /> <img src="https://img.shields.io/badge/Automation-focus-1f2937?style=flat-square&color=1f2937&labelColor=0f766e" alt="Automation badge" /> <img src="https://img.shields.io/github/stars/Aa-Rho-Hi/incident-response-automation?style=flat-square&label=stars&color=f59e0b&labelColor=111827" alt="incident-response-automation stars" />
+  <a href="https://github.com/Aa-Rho-Hi/incident-response-automation"><img src="https://img.shields.io/badge/main%20character-incident-response-automation-f97316?style=for-the-badge&color=f97316&labelColor=111827&logo=github&logoColor=white" alt="incident-response-automation" /></a><br/>
+  Less copy-paste chaos, more scripted response for security operations.<br/><br/>
+  <img src="https://img.shields.io/badge/Python-focus-1f2937?style=flat-square&color=1f2937&labelColor=0f766e" alt="Python badge" /> <img src="https://img.shields.io/badge/IR-focus-1f2937?style=flat-square&color=1f2937&labelColor=0f766e" alt="IR badge" /> <img src="https://img.shields.io/badge/Automation-focus-1f2937?style=flat-square&color=1f2937&labelColor=0f766e" alt="Automation badge" /> <img src="https://img.shields.io/github/stars/Aa-Rho-Hi/incident-response-automation?style=flat-square&label=stars&color=f59e0b&labelColor=111827" alt="incident-response-automation stars" />
 </td>
 </tr>
 <tr>
 <td valign="top" width="50%">
-  <a href="https://github.com/Aa-Rho-Hi/MosaicRetrieverV1"><img src="https://img.shields.io/badge/featured-MosaicRetrieverV1-f97316?style=for-the-badge&color=f97316&labelColor=111827&logo=github&logoColor=white" alt="MosaicRetrieverV1" /></a><br/>
-  A TypeScript UI build that shows how strong interface design can support complex workflows.<br/><br/>
-  <img src="https://img.shields.io/badge/TypeScript-focus-1f2937?style=flat-square&color=1f2937&labelColor=0f766e" alt="TypeScript badge" /> <img src="https://img.shields.io/badge/UI-focus-1f2937?style=flat-square&color=1f2937&labelColor=0f766e" alt="UI badge" /> <img src="https://img.shields.io/badge/Frontend-focus-1f2937?style=flat-square&color=1f2937&labelColor=0f766e" alt="Frontend badge" /> <img src="https://img.shields.io/github/stars/Aa-Rho-Hi/MosaicRetrieverV1?style=flat-square&label=stars&color=f59e0b&labelColor=111827" alt="MosaicRetrieverV1 stars" />
+  <a href="https://github.com/Aa-Rho-Hi/MosaicRetrieverV1"><img src="https://img.shields.io/badge/main%20character-MosaicRetrieverV1-f97316?style=for-the-badge&color=f97316&labelColor=111827&logo=github&logoColor=white" alt="MosaicRetrieverV1" /></a><br/>
+  Proof that technical workflows do not have to look spiritually beige.<br/><br/>
+  <img src="https://img.shields.io/badge/TypeScript-focus-1f2937?style=flat-square&color=1f2937&labelColor=0f766e" alt="TypeScript badge" /> <img src="https://img.shields.io/badge/UX-focus-1f2937?style=flat-square&color=1f2937&labelColor=0f766e" alt="UX badge" /> <img src="https://img.shields.io/badge/Frontend-focus-1f2937?style=flat-square&color=1f2937&labelColor=0f766e" alt="Frontend badge" /> <img src="https://img.shields.io/github/stars/Aa-Rho-Hi/MosaicRetrieverV1?style=flat-square&label=stars&color=f59e0b&labelColor=111827" alt="MosaicRetrieverV1 stars" />
 </td>
 <td valign="top" width="50%">
-  <a href="https://github.com/Aa-Rho-Hi/energy-consumption-optimizer"><img src="https://img.shields.io/badge/featured-energy-consumption-optimizer-f97316?style=for-the-badge&color=f97316&labelColor=111827&logo=github&logoColor=white" alt="energy-consumption-optimizer" /></a><br/>
-  Python work centered on optimization and analytical problem solving.<br/><br/>
+  <a href="https://github.com/Aa-Rho-Hi/energy-consumption-optimizer"><img src="https://img.shields.io/badge/main%20character-energy-consumption-optimizer-f97316?style=for-the-badge&color=f97316&labelColor=111827&logo=github&logoColor=white" alt="energy-consumption-optimizer" /></a><br/>
+  Optimizer brain in Python form: analytical thinking, cleaner decisions, less waste.<br/><br/>
   <img src="https://img.shields.io/badge/Python-focus-1f2937?style=flat-square&color=1f2937&labelColor=0f766e" alt="Python badge" /> <img src="https://img.shields.io/badge/Optimization-focus-1f2937?style=flat-square&color=1f2937&labelColor=0f766e" alt="Optimization badge" /> <img src="https://img.shields.io/badge/Data-focus-1f2937?style=flat-square&color=1f2937&labelColor=0f766e" alt="Data badge" /> <img src="https://img.shields.io/github/stars/Aa-Rho-Hi/energy-consumption-optimizer?style=flat-square&label=stars&color=f59e0b&labelColor=111827" alt="energy-consumption-optimizer stars" />
 </td>
 </tr>
 <tr>
 <td valign="top" width="50%">
-  <a href="https://github.com/Aa-Rho-Hi/Android_OTP"><img src="https://img.shields.io/badge/featured-Android_OTP-f97316?style=for-the-badge&color=f97316&labelColor=111827&logo=github&logoColor=white" alt="Android_OTP" /></a><br/>
-  Android code in Java for receiving OTP on the entered mobile number.<br/><br/>
+  <a href="https://github.com/Aa-Rho-Hi/Android_OTP"><img src="https://img.shields.io/badge/main%20character-Android_OTP-f97316?style=for-the-badge&color=f97316&labelColor=111827&logo=github&logoColor=white" alt="Android_OTP" /></a><br/>
+  A mobile OTP build from earlier secure-flow experiments in Java.<br/><br/>
   <img src="https://img.shields.io/badge/Java-focus-1f2937?style=flat-square&color=1f2937&labelColor=0f766e" alt="Java badge" /> <img src="https://img.shields.io/badge/Android-focus-1f2937?style=flat-square&color=1f2937&labelColor=0f766e" alt="Android badge" /> <img src="https://img.shields.io/badge/OTP-focus-1f2937?style=flat-square&color=1f2937&labelColor=0f766e" alt="OTP badge" /> <img src="https://img.shields.io/github/stars/Aa-Rho-Hi/Android_OTP?style=flat-square&label=stars&color=f59e0b&labelColor=111827" alt="Android_OTP stars" />
 </td>
 <td valign="top" width="50%"></td>
@@ -98,33 +132,31 @@ Threat-aware engineering, clean UX, and automation that reduces analyst noise in
 </details>
 
 <details open>
-<summary><strong>Defensive Stack</strong></summary>
+<summary><strong>stack i actually reach for</strong></summary>
 
-<img src="https://img.shields.io/badge/AppSec-stack-0f766e?style=flat-square&color=0f766e&labelColor=111827" alt="AppSec badge" />
-<img src="https://img.shields.io/badge/Threat%20Modeling-stack-0f766e?style=flat-square&color=0f766e&labelColor=111827" alt="Threat Modeling badge" />
-<img src="https://img.shields.io/badge/Security%20Automation-stack-0f766e?style=flat-square&color=0f766e&labelColor=111827" alt="Security Automation badge" />
-<img src="https://img.shields.io/badge/Incident%20Response-stack-0f766e?style=flat-square&color=0f766e&labelColor=111827" alt="Incident Response badge" />
-<img src="https://img.shields.io/badge/TypeScript-stack-0f766e?style=flat-square&color=0f766e&labelColor=111827" alt="TypeScript badge" />
-<img src="https://img.shields.io/badge/Python-stack-0f766e?style=flat-square&color=0f766e&labelColor=111827" alt="Python badge" />
-<img src="https://img.shields.io/badge/C%23-stack-0f766e?style=flat-square&color=0f766e&labelColor=111827" alt="C# badge" />
-<img src="https://img.shields.io/badge/Java-stack-0f766e?style=flat-square&color=0f766e&labelColor=111827" alt="Java badge" />
-<img src="https://img.shields.io/badge/React-stack-0f766e?style=flat-square&color=0f766e&labelColor=111827" alt="React badge" />
-<img src="https://img.shields.io/badge/Node.js-stack-0f766e?style=flat-square&color=0f766e&labelColor=111827" alt="Node.js badge" />
-<img src="https://img.shields.io/badge/JavaScript-stack-0f766e?style=flat-square&color=0f766e&labelColor=111827" alt="JavaScript badge" />
-<img src="https://img.shields.io/badge/CSS-stack-0f766e?style=flat-square&color=0f766e&labelColor=111827" alt="CSS badge" />
+<img src="https://img.shields.io/badge/AppSec-actually%20use-0f766e?style=flat-square&color=0f766e&labelColor=111827" alt="AppSec badge" />
+<img src="https://img.shields.io/badge/Threat%20Modeling-actually%20use-0f766e?style=flat-square&color=0f766e&labelColor=111827" alt="Threat Modeling badge" />
+<img src="https://img.shields.io/badge/Security%20Automation-actually%20use-0f766e?style=flat-square&color=0f766e&labelColor=111827" alt="Security Automation badge" />
+<img src="https://img.shields.io/badge/Incident%20Response-actually%20use-0f766e?style=flat-square&color=0f766e&labelColor=111827" alt="Incident Response badge" />
+<img src="https://img.shields.io/badge/TypeScript-actually%20use-0f766e?style=flat-square&color=0f766e&labelColor=111827" alt="TypeScript badge" />
+<img src="https://img.shields.io/badge/Python-actually%20use-0f766e?style=flat-square&color=0f766e&labelColor=111827" alt="Python badge" />
+<img src="https://img.shields.io/badge/C%23-actually%20use-0f766e?style=flat-square&color=0f766e&labelColor=111827" alt="C# badge" />
+<img src="https://img.shields.io/badge/Java-actually%20use-0f766e?style=flat-square&color=0f766e&labelColor=111827" alt="Java badge" />
+<img src="https://img.shields.io/badge/React-actually%20use-0f766e?style=flat-square&color=0f766e&labelColor=111827" alt="React badge" />
+<img src="https://img.shields.io/badge/Node.js-actually%20use-0f766e?style=flat-square&color=0f766e&labelColor=111827" alt="Node.js badge" />
+<img src="https://img.shields.io/badge/JavaScript-actually%20use-0f766e?style=flat-square&color=0f766e&labelColor=111827" alt="JavaScript badge" />
+<img src="https://img.shields.io/badge/CSS-actually%20use-0f766e?style=flat-square&color=0f766e&labelColor=111827" alt="CSS badge" />
 
 </details>
 
 <details>
-<summary><strong>Field Notes</strong></summary>
+<summary><strong>open tab if you also build weird good things</strong></summary>
 
-- I care about defensive systems that are actually usable by the people operating them.
-- Security tooling should lower response time and cognitive load, not add ceremony.
-- Pinned work spans Java, Python, C#, and TypeScript because the stack should fit the threat model and the job.
+Open to AppSec, security automation, and product-grade tooling collabs. If you build sharp things and care about signal, reach out through GitHub.
 
 </details>
 
-## Telemetry
+## `receipts`
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Aa-Rho-Hi&show_icons=true&hide_border=true&bg_color=00000000&title_color=f97316&text_color=e5e7eb&icon_color=14b8a6&ring_color=f97316" alt="Aa-Rho-Hi GitHub stats" height="170" />
@@ -133,7 +165,3 @@ Threat-aware engineering, clean UX, and automation that reduces analyst noise in
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aa-Rho-Hi&layout=compact&hide_border=true&bg_color=00000000&title_color=f97316&text_color=e5e7eb" alt="Aa-Rho-Hi top languages" height="150" />
 </p>
-
-## Open Channel
-
-Open to collaboration on AppSec, security automation, and product-grade defensive tooling. If something here overlaps with your work, reach out through GitHub.
