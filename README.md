@@ -1,161 +1,111 @@
-<!-- Generated from README.template.md via scripts/generate.js -->
+# Aarohi Mohrir
+
+**Cybersecurity Engineer · M.S. Computer Science, Texas A&M University**
+
+I build security systems end to end — detection engineering, threat exposure management, ML-based malware detection, and production AI applications with security hardening built in. Currently seeking cybersecurity internship and full-time roles in cloud security, AI security, SOC operations, and infrastructure security.
+
+[![Email](https://img.shields.io/badge/Email-aarohi0402%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:aarohi0402@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Aa--Rho--Hi-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Aa-Rho-Hi)
+
+---
+
+## Featured Projects
+
+### 🔴 EIRA — Production RAG Chatbot for Texas A&M ECE — **[Live](https://ecen-chatbot-199137295144.us-central1.run.app)**
+
+**Repo:** [ECEN-Chatbot](https://github.com/Aa-Rho-Hi/ECEN-Chatbot) · **Stack:** FastAPI, Next.js 15, Supabase pgvector, OpenAI, GCP Cloud Run
+
+- **Situation:** The Texas A&M ECE department's information (programs, courses, faculty, research, admissions) was scattered across hundreds of web pages, making answers hard to find for students and visitors.
+- - **Task:** Build and deploy a production-grade, secure RAG chatbot grounded in the department's official website, under the guidance of Prof. Krishna Narayanan.
+  - - **Action:** Designed a full pipeline — BFS site crawler with PII scrubbing and data-poisoning guards, hybrid retrieval (pgvector HNSW dense search + BM25 + RRF fusion + cross-encoder re-ranking), an LLM intent router, and a faculty knowledge graph. Hardened it with per-IP rate limiting, layered prompt-injection defense, mid-stream secret redaction, citation relevance gates, and structured audit logging. Deployed on Cloud Run with CI via Cloud Build and nightly automated re-indexing.
+    - - **Result:** A live public service answering department questions with grounded citations and an honest "couldn't find that" instead of hallucinations — security-screened at every layer from ingestion to output. **Try it: [ecen-chatbot-199137295144.us-central1.run.app](https://ecen-chatbot-199137295144.us-central1.run.app)**
+     
+      - ### 🛡️ ATLAS-CTEM — Continuous Threat Exposure Management Platform
+     
+      - **Repo:** [CTEM](https://github.com/Aa-Rho-Hi/CTEM) · **Stack:** FastAPI (async), PostgreSQL, Celery/Redis, Neo4j/NetworkX, Next.js 16, Docker, Kubernetes
+     
+      - - **Situation:** Vulnerability data from scanners (Nessus, Qualys, Burp, Snyk, and others) arrives in incompatible formats with no shared notion of business risk, leaving teams to prioritize by raw CVSS alone.
+
+**Cybersecurity Engineer · M.S. Computer Science, Texas A&M University**
+
+I build security systems end to end — detection engineering, threat exposure management, ML-based malware detection, and production AI applications with security hardening built in. Currently seeking cybersecurity internship and full-time roles in cloud security, AI security, SOC operations, and infrastructure security.
+
+[![Email](https://img.shields.io/badge/Email-aarohi0402%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:aarohi0402@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Aa--Rho--Hi-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Aa-Rho-Hi)
+
+---
+
+## Featured Projects
+
+### 🔴 EIRA — Production RAG Chatbot for Texas A&M ECE — **[Live](https://ecen-chatbot-199137295144.us-central1.run.app)**
+
+**Repo:** [ECEN-Chatbot](https://github.com/Aa-Rho-Hi/ECEN-Chatbot) · **Stack:** FastAPI, Next.js 15, Supabase pgvector, OpenAI, GCP Cloud Run
+
+- **Situation:** The Texas A&M ECE department's information (programs, courses, faculty, research, admissions) was scattered across hundreds of web pages, making answers hard to find for students and visitors.
+- **Task:** Build and deploy a production-grade, secure RAG chatbot grounded in the department's official website, under the guidance of Prof. Krishna Narayanan.
+- **Action:** Designed a full pipeline — BFS site crawler with PII scrubbing and data-poisoning guards, hybrid retrieval (pgvector HNSW dense search + BM25 + RRF fusion + cross-encoder re-ranking), an LLM intent router, and a faculty knowledge graph. Hardened it with per-IP rate limiting, layered prompt-injection defense, mid-stream secret redaction, citation relevance gates, and structured audit logging. Deployed on Cloud Run with CI via Cloud Build and nightly automated re-indexing.
+- **Result:** A live public service answering department questions with grounded citations and an honest "couldn't find that" instead of hallucinations — security-screened at every layer from ingestion to output. **Try it: [ecen-chatbot-199137295144.us-central1.run.app](https://ecen-chatbot-199137295144.us-central1.run.app)**
+
+### 🛡️ ATLAS-CTEM — Continuous Threat Exposure Management Platform
+
+**Repo:** [CTEM](https://github.com/Aa-Rho-Hi/CTEM) · **Stack:** FastAPI (async), PostgreSQL, Celery/Redis, Neo4j/NetworkX, Next.js 16, Docker, Kubernetes
+
+- **Situation:** Vulnerability data from scanners (Nessus, Qualys, Burp, Snyk, and others) arrives in incompatible formats with no shared notion of business risk, leaving teams to prioritize by raw CVSS alone.
+- **Task:** Build an enterprise-grade, multi-tenant platform unifying vulnerability discovery, risk prioritization, attack-path analysis, compliance, and remediation in one workflow.
+- **Action:** Implemented ingestion parsers for 10+ scanner formats; a composite risk engine combining CVSS, EPSS, KEV status, network exposure, and business impact; NetworkX attack-graph analysis for lateral-movement paths and choke points; CWE-to-control mapping across 10 compliance frameworks (NIST CSF 2.0, PCI-DSS 4.0, HIPAA, ISO 27001, SOC 2, and more); and an LLM agent framework with tool whitelists, risk ceilings, a Redis-backed fail-closed kill switch, and immutable audit trails. Added six-role RBAC with database-level tenant isolation and a 50+ file pytest suite.
+- **Result:** A deployable platform (Docker Compose + Kubernetes manifests, Swagger/ReDoc API docs) that turns raw scan output into context-ranked, compliance-mapped, approval-gated remediation — with an accompanying IEEE-format paper.
+
+### 🧬 DAFCS — Malware Detection on EMBER2024 (Beat the Published Baseline)
+
+**Repo:** [DAFCS](https://github.com/Aa-Rho-Hi/DAFCS) · **Stack:** Python, LightGBM, PyTorch, contrastive learning
+
+- **Situation:** The EMBER2024 benchmark includes a challenge set of 6,315 evasive malware samples engineered to evade detection; the published baseline catches only 66.5% of them.
+- **Task:** Benchmark and beat the official EMBER2024 paper baseline on malware detection and family classification across 2.6M+ training samples.
+- **Action:** Trained per-file-type LightGBM specialist models, grid-searched ensemble weights over 1,200 combinations, and designed a novel rank-based (Borda count) ensemble with power sharpening that eliminates cross-model score-scale bias. Built a parallel PyTorch pipeline with supervised contrastive pre-training, multi-task fine-tuning, and prototypical inference for long-tail malware families.
+- **Result:** Beat the paper baseline on **all four metrics** (test ROC-AUC 0.9976, challenge PR-AUC +0.156); the novel rank ensemble raised evasive-malware detection from **66.5% → 97.86%** (+31.3 pp).
+
+### 🔍 ShadowProbe — Autonomous Vulnerability Discovery Pipeline
+
+**Repo:** [ShadowProbe](https://github.com/Aa-Rho-Hi/ShadowProbe) · **Stack:** Python, Bandit, Semgrep, LLM reasoning
+
+- **Situation:** Static analyzers flood developers with findings that lack semantic context, exploitability assessment, and prioritization.
+- **Task:** Design a research-grade system that takes a repository URL and autonomously produces a prioritized, contextual vulnerability report.
+- **Action:** Architected a hybrid pipeline — repo acquisition, Bandit + Semgrep static analysis, LLM-based semantic reasoning over suspicious code segments, exploit-path simulation, contextual risk scoring, and JSON/Markdown report generation — with clean module boundaries per stage.
+- **Result:** Working pipeline skeleton with full architecture in place; active development toward end-to-end automated triage.
+
+### 🧩 OWASP Risk Intelligence — VS Code Security Extension
+
+**Repo:** [owasp-risk-intelligence](https://github.com/Aa-Rho-Hi/owasp-risk-intelligence) · **Stack:** TypeScript, VS Code Extension API, esbuild
+
+- **Situation:** Developers usually learn about OWASP Top 10 issues at review or scan time — long after the insecure pattern was written.
+- **Task:** Surface vulnerability detection and risk scoring directly in the editor, at the moment code is written.
+- **Action:** Built a static-analysis engine detecting SQL injection, XSS, command injection, `eval()` use, weak hashing (MD5/SHA1), insecure randomness, hardcoded secrets, and HTTP misuse — each scored with a weighted exploitability/impact model (Risk = E×0.6 + I×0.4) and rendered as inline highlights with hover explanations.
+- **Result:** A working shift-left security tool that gives per-finding severity, per-file average risk, and educational context inside the SSDLC's earliest stage.
+
+### 🤖 Claude-FPR — LLM-Assisted False-Positive Reduction *(in progress)*
+
+**Repo:** [Claude-FPR](https://github.com/Aa-Rho-Hi/Claude-FPR) · **Stack:** Python
+
+Active research applying LLM reasoning to reduce false positives in security alert triage. Public release in progress — watch the repo.
+
+---
+
+## Also Built
+
+- **Endpoint Detection Lab** — Sigma rules authored and tuned for Windows/Linux telemetry, each mapped to MITRE ATT&CK techniques; full SOC loop of collection → detection → triage → gap analysis
+- **AWS Security Fundamentals** — least-privilege IAM policies, CloudWatch alarming, S3 hardening (encryption at rest, public-access blocks, bucket policies)
+- **API Security Research** — OWASP API Top 10 validated hands-on against test APIs with documented repro steps and mitigations
+
+## Skills
+
+**Security:** detection engineering (Sigma, MITRE ATT&CK), CTEM & risk modeling, AppSec/OWASP, API security, threat intel, incident response
+**Cloud:** AWS (IAM, CloudWatch, S3), GCP (Cloud Run, Cloud Build, Scheduler), Docker, Kubernetes
+**Engineering:** Python, TypeScript, FastAPI, Next.js/React, PostgreSQL + pgvector, Celery/Redis, PyTorch, LightGBM
+**ML for Security:** RAG pipelines, hybrid retrieval, contrastive learning, ensemble methods, LLM safety hardening
+
+---
 
 <p align="center">
-  <img src="./assets/hero-panel.svg" alt="Aarohi Mohrir hero banner" width="100%" />
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&weight=700&size=23&duration=2800&pause=900&color=F97316&center=true&vCenter=true&width=920&lines=onion-mode+aesthetics%3Bsignal-only+systems%3Bappsec+after+midnight%3Bsecurity+UX+with+taste" alt="Aarohi Mohrir rotating intro" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/blue--team--coded-0ea5e9?style=for-the-badge&logo=icloud&logoColor=white" alt="blue-team-coded" />
-  <img src="https://img.shields.io/badge/onion--mode-14b8a6?style=for-the-badge&logo=torbrowser&logoColor=white" alt="onion-mode" />
-  <img src="https://img.shields.io/badge/signal--only-f97316?style=for-the-badge&logo=signal&logoColor=white" alt="signal-only" />
-  <img src="https://img.shields.io/badge/interface%20not%20sludge-111827?style=for-the-badge&logo=figma&logoColor=white" alt="interface not sludge" />
-</p>
-
-<h1 align="center">hi, i'm Aarohi Mohrir</h1>
-
-<p align="center"><strong>cybersecurity engineer with blue-team instincts, onion-mode aesthetics, and zero patience for ugly security tooling.</strong></p>
-
-<p align="center">I build secure systems that still feel sharp to use: auth flows, security automation, incident-response helpers, and interfaces that look more relay node than corporate dashboard.</p>
-
-<p align="center">
-  <a href="https://github.com/Aa-Rho-Hi"><img src="https://img.shields.io/static/v1?label=GitHub&amp;message=connect&amp;style=for-the-badge&amp;color=181717&amp;labelColor=111827&amp;logo=github&amp;logoColor=white" alt="GitHub badge" /></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/Aa-Rho-Hi?tab=repositories">
-    <img src="https://img.shields.io/badge/Repo%20Intel-111827?style=for-the-badge&logo=github&logoColor=white" alt="Repository intel" />
-  </a>
-  <a href="https://github.com/Aa-Rho-Hi">
-    <img src="https://img.shields.io/badge/Threat%20Surface-0f766e?style=for-the-badge&logo=probot&logoColor=white" alt="Threat surface" />
-  </a>
-  <a href="#open-panels">
-    <img src="https://img.shields.io/badge/Open%20Panels-f97316?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Open panels" />
-  </a>
-</p>
-
-> onion-mode visuals. signal-only systems. zero dashboard sludge.
-
-<table>
-<tr>
-<td valign="top" width="58%">
-
-## `status.exe`
-
-```text
-> alias
-Aarohi Mohrir (Aa-Rho-Hi)
-
-> current build arc
-auth flows with actual boundaries, IR automation with less dashboard sludge, security tooling with relay-node energy
-
-> operating principle
-High signal, low noise, secure by default, and dark enough to feel like a relay node.
-```
-
-## `currently_cooking`
-
-- Defensive engineering around authentication, access control, and secure-by-default workflows.
-- Security automation that cuts manual drag instead of adding one more tab to babysit.
-- Product-grade interfaces for technical tools, because high-stakes workflows deserve better UX.
-
-</td>
-<td valign="top" width="42%">
-
-## `shadow_board`
-
-- appsec brain
-- blue-team energy
-- automation for people allergic to manual work
-- relay-node visual taste
-- useful software > noisy software
-
-## `build_philosophy`
-
-- If the workflow is ugly, noisy, or confusing, the system is not done.
-- I care about the threat model and the typography with equal seriousness.
-- The stack should fit the problem, the operator, and the chaos level.
-
-</td>
-</tr>
-</table>
-
-<a id="open-panels"></a>
-
-<details open>
-<summary><strong>main character repos</strong></summary>
-
-<table>
-<tr>
-<td valign="top" width="50%">
-  <a href="https://github.com/Aa-Rho-Hi/fortress-auth"><img src="https://img.shields.io/static/v1?label=main+character&message=fortress-auth&style=for-the-badge&color=f97316&labelColor=111827&logo=github&logoColor=white" alt="fortress-auth" /></a><br/>
-  Trust issues, but productive: auth and access-control ideas built with defensive defaults.<br/><br/>
-  <img src="https://img.shields.io/static/v1?label=C%23&message=focus&style=flat-square&color=1f2937&labelColor=0f766e" alt="C# badge" /> <img src="https://img.shields.io/static/v1?label=Auth&message=focus&style=flat-square&color=1f2937&labelColor=0f766e" alt="Auth badge" /> <img src="https://img.shields.io/static/v1?label=AppSec&message=focus&style=flat-square&color=1f2937&labelColor=0f766e" alt="AppSec badge" /> <img src="https://img.shields.io/github/stars/Aa-Rho-Hi/fortress-auth?style=flat-square&label=stars&color=f59e0b&labelColor=111827" alt="fortress-auth stars" />
-</td>
-<td valign="top" width="50%">
-  <a href="https://github.com/Aa-Rho-Hi/incident-response-automation"><img src="https://img.shields.io/static/v1?label=main+character&message=incident-response-automation&style=for-the-badge&color=f97316&labelColor=111827&logo=github&logoColor=white" alt="incident-response-automation" /></a><br/>
-  Less copy-paste chaos, more scripted response for security operations.<br/><br/>
-  <img src="https://img.shields.io/static/v1?label=Python&message=focus&style=flat-square&color=1f2937&labelColor=0f766e" alt="Python badge" /> <img src="https://img.shields.io/static/v1?label=IR&message=focus&style=flat-square&color=1f2937&labelColor=0f766e" alt="IR badge" /> <img src="https://img.shields.io/static/v1?label=Automation&message=focus&style=flat-square&color=1f2937&labelColor=0f766e" alt="Automation badge" /> <img src="https://img.shields.io/github/stars/Aa-Rho-Hi/incident-response-automation?style=flat-square&label=stars&color=f59e0b&labelColor=111827" alt="incident-response-automation stars" />
-</td>
-</tr>
-<tr>
-<td valign="top" width="50%">
-  <a href="https://github.com/Aa-Rho-Hi/MosaicRetrieverV1"><img src="https://img.shields.io/static/v1?label=main+character&message=MosaicRetrieverV1&style=for-the-badge&color=f97316&labelColor=111827&logo=github&logoColor=white" alt="MosaicRetrieverV1" /></a><br/>
-  Proof that technical workflows do not have to look spiritually beige.<br/><br/>
-  <img src="https://img.shields.io/static/v1?label=TypeScript&message=focus&style=flat-square&color=1f2937&labelColor=0f766e" alt="TypeScript badge" /> <img src="https://img.shields.io/static/v1?label=UX&message=focus&style=flat-square&color=1f2937&labelColor=0f766e" alt="UX badge" /> <img src="https://img.shields.io/static/v1?label=Frontend&message=focus&style=flat-square&color=1f2937&labelColor=0f766e" alt="Frontend badge" /> <img src="https://img.shields.io/github/stars/Aa-Rho-Hi/MosaicRetrieverV1?style=flat-square&label=stars&color=f59e0b&labelColor=111827" alt="MosaicRetrieverV1 stars" />
-</td>
-<td valign="top" width="50%">
-  <a href="https://github.com/Aa-Rho-Hi/energy-consumption-optimizer"><img src="https://img.shields.io/static/v1?label=main+character&message=energy-consumption-optimizer&style=for-the-badge&color=f97316&labelColor=111827&logo=github&logoColor=white" alt="energy-consumption-optimizer" /></a><br/>
-  Optimizer brain in Python form: analytical thinking, cleaner decisions, less waste.<br/><br/>
-  <img src="https://img.shields.io/static/v1?label=Python&message=focus&style=flat-square&color=1f2937&labelColor=0f766e" alt="Python badge" /> <img src="https://img.shields.io/static/v1?label=Optimization&message=focus&style=flat-square&color=1f2937&labelColor=0f766e" alt="Optimization badge" /> <img src="https://img.shields.io/static/v1?label=Data&message=focus&style=flat-square&color=1f2937&labelColor=0f766e" alt="Data badge" /> <img src="https://img.shields.io/github/stars/Aa-Rho-Hi/energy-consumption-optimizer?style=flat-square&label=stars&color=f59e0b&labelColor=111827" alt="energy-consumption-optimizer stars" />
-</td>
-</tr>
-<tr>
-<td valign="top" width="50%">
-  <a href="https://github.com/Aa-Rho-Hi/Android_OTP"><img src="https://img.shields.io/static/v1?label=main+character&message=Android_OTP&style=for-the-badge&color=f97316&labelColor=111827&logo=github&logoColor=white" alt="Android_OTP" /></a><br/>
-  A mobile OTP build from earlier secure-flow experiments in Java.<br/><br/>
-  <img src="https://img.shields.io/static/v1?label=Java&message=focus&style=flat-square&color=1f2937&labelColor=0f766e" alt="Java badge" /> <img src="https://img.shields.io/static/v1?label=Android&message=focus&style=flat-square&color=1f2937&labelColor=0f766e" alt="Android badge" /> <img src="https://img.shields.io/static/v1?label=OTP&message=focus&style=flat-square&color=1f2937&labelColor=0f766e" alt="OTP badge" /> <img src="https://img.shields.io/github/stars/Aa-Rho-Hi/Android_OTP?style=flat-square&label=stars&color=f59e0b&labelColor=111827" alt="Android_OTP stars" />
-</td>
-<td valign="top" width="50%"></td>
-</tr>
-</table>
-
-</details>
-
-<details open>
-<summary><strong>stack i actually reach for</strong></summary>
-
-<img src="https://img.shields.io/static/v1?label=AppSec&message=actually+use&style=flat-square&color=0f766e&labelColor=111827" alt="AppSec badge" />
-<img src="https://img.shields.io/static/v1?label=Threat+Modeling&message=actually+use&style=flat-square&color=0f766e&labelColor=111827" alt="Threat Modeling badge" />
-<img src="https://img.shields.io/static/v1?label=Security+Automation&message=actually+use&style=flat-square&color=0f766e&labelColor=111827" alt="Security Automation badge" />
-<img src="https://img.shields.io/static/v1?label=Incident+Response&message=actually+use&style=flat-square&color=0f766e&labelColor=111827" alt="Incident Response badge" />
-<img src="https://img.shields.io/static/v1?label=TypeScript&message=actually+use&style=flat-square&color=0f766e&labelColor=111827" alt="TypeScript badge" />
-<img src="https://img.shields.io/static/v1?label=Python&message=actually+use&style=flat-square&color=0f766e&labelColor=111827" alt="Python badge" />
-<img src="https://img.shields.io/static/v1?label=C%23&message=actually+use&style=flat-square&color=0f766e&labelColor=111827" alt="C# badge" />
-<img src="https://img.shields.io/static/v1?label=Java&message=actually+use&style=flat-square&color=0f766e&labelColor=111827" alt="Java badge" />
-<img src="https://img.shields.io/static/v1?label=React&message=actually+use&style=flat-square&color=0f766e&labelColor=111827" alt="React badge" />
-<img src="https://img.shields.io/static/v1?label=Node.js&message=actually+use&style=flat-square&color=0f766e&labelColor=111827" alt="Node.js badge" />
-<img src="https://img.shields.io/static/v1?label=JavaScript&message=actually+use&style=flat-square&color=0f766e&labelColor=111827" alt="JavaScript badge" />
-<img src="https://img.shields.io/static/v1?label=CSS&message=actually+use&style=flat-square&color=0f766e&labelColor=111827" alt="CSS badge" />
-
-</details>
-
-<details>
-<summary><strong>relay://contact</strong></summary>
-
-Open to AppSec, security automation, and product-grade tooling collabs. If you build sharp things and care about signal, reach out through GitHub.
-
-</details>
-
-## `receipts`
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Aa-Rho-Hi&show_icons=true&hide_border=true&bg_color=00000000&title_color=f97316&text_color=e5e7eb&icon_color=14b8a6&ring_color=f97316" alt="Aa-Rho-Hi GitHub stats" height="170" />
-  <img src="https://streak-stats.demolab.com?user=Aa-Rho-Hi&hide_border=true&background=00000000&ring=f97316&fire=f97316&currStreakLabel=e5e7eb&sideLabels=e5e7eb&dates=94a3b8&currStreakNum=14b8a6&sideNums=14b8a6" alt="Aa-Rho-Hi GitHub streak" height="170" />
-</p>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aa-Rho-Hi&layout=compact&hide_border=true&bg_color=00000000&title_color=f97316&text_color=e5e7eb" alt="Aa-Rho-Hi top languages" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Aa-Rho-Hi&show_icons=true&hide_border=true" alt="GitHub stats" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aa-Rho-Hi&layout=compact&hide_border=true" alt="Top languages" height="165" />
 </p>
