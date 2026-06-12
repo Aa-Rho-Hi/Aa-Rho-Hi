@@ -56,11 +56,14 @@ I build security systems end to end — detection engineering, threat exposure m
 - **Action:** Built a static-analysis engine detecting SQL injection, XSS, command injection, `eval()` use, weak hashing (MD5/SHA1), insecure randomness, hardcoded secrets, and HTTP misuse — each scored with a weighted exploitability/impact model (Risk = E×0.6 + I×0.4) and rendered as inline highlights with hover explanations.
 - **Result:** A working shift-left security tool that gives per-finding severity, per-file average risk, and educational context inside the SSDLC's earliest stage.
 
-### 🤖 Claude-FPR — LLM-Assisted False-Positive Reduction *(in progress)*
+### 🤖 Claude-FPR — Faculty Annual Report (FAR) Extraction Pipeline
 
-**Repo:** [Claude-FPR](https://github.com/Aa-Rho-Hi/Claude-FPR) · **Stack:** Python
+**Repo:** [Claude-FPR](https://github.com/Aa-Rho-Hi/Claude-FPR) · **Stack:** Python, Streamlit, pdfplumber, Tesseract OCR, Claude API
 
-Active research applying LLM reasoning to reduce false positives in security alert triage. Public release in progress — watch the repo.
+- **Situation:** Academic departments compile Faculty Annual Report metrics by manually reading each professor's CV, FAR PDF, and supplemental spreadsheets — slow, error-prone, and easy to miscount given wildly inconsistent PDF layouts (two-column, scanned, irregular headers).
+- **Task:** Build a tool that extracts exact, auditable counts from heterogeneous faculty documents into a ground-truth-format Excel workbook, usable by non-technical staff and adaptable to any department.
+- **Action:** Built a Streamlit app over a Python extraction engine with batch merge and de-duplication. Separated section extraction, entry segmentation, filtering, and counting so every count is `len(matched)` — never a number emitted by regex or an LLM. Added an optional Claude-based per-entry classifier with self-consistency voting for semantic rules, a PDF quality gate with OCR fallback (dehyphenation, column reflow, trust report), and unit tests for the counting and PDF-quality modules.
+- **Result:** A deterministic, auditable pipeline — every count traces back to the exact entries matched, segmentation method, and confidence level — eliminating LLM-miscount bugs and reducing manual compilation to an upload-and-download workflow.
 
 ---
 
