@@ -2,7 +2,7 @@
 
 **Cybersecurity Engineer · M.S. Computer Science, Texas A&M University**
 
-I build security systems end to end — detection engineering, threat exposure management, ML-based malware detection, and production AI applications with security hardening built in. Currently seeking cybersecurity internship and full-time roles in cloud security, AI security, SOC operations, and infrastructure security.
+I build security systems end to end: detection pipelines mapped to MITRE ATT&CK, threat-exposure management platforms, ML malware detection that beats published baselines, and production AI applications hardened against real-world attacks. My work spans cloud security, AI security, SOC operations, and infrastructure security.
 
 [![Email](https://img.shields.io/badge/Email-aarohi0402%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:aarohi0402@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Aa--Rho--Hi-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Aa-Rho-Hi)
