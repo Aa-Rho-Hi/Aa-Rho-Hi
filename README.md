@@ -27,7 +27,7 @@ I design, develop, and secure systems end to end: full-stack applications, detec
 - **Situation:** Vulnerability data from scanners (Nessus, Qualys, Burp, Snyk, and others) arrives in incompatible formats with no shared notion of business risk, leaving teams to prioritize by raw CVSS alone.
 - **Task:** Build an enterprise-grade, multi-tenant platform unifying vulnerability discovery, risk prioritization, attack-path analysis, compliance, and remediation in one workflow.
 - **Action:** Implemented ingestion parsers for 10+ scanner formats; a composite risk engine combining CVSS, EPSS, KEV status, network exposure, and business impact; NetworkX attack-graph analysis for lateral-movement paths and choke points; CWE-to-control mapping across 10 compliance frameworks (NIST CSF 2.0, PCI-DSS 4.0, HIPAA, ISO 27001, SOC 2, and more); and an LLM agent framework with tool whitelists, risk ceilings, a Redis-backed fail-closed kill switch, and immutable audit trails. Added six-role RBAC with database-level tenant isolation and a 50+ file pytest suite.
-- **Result:** A deployable platform (Docker Compose + Kubernetes manifests, Swagger/ReDoc API docs) that turns raw scan output into context-ranked, compliance-mapped, approval-gated remediation — with an accompanying IEEE-format paper.
+- **Result:** A deployable platform (Docker Compose + Kubernetes manifests, Swagger/ReDoc API docs) that turns raw scan output into context-ranked, compliance-mapped, approval-gated remediation — with an accompanying IEEE-format paper. **Try it: [https://ecen-chatbot-199137295144.us-central1.run.app](https://frontend-production-7be0.up.railway.app/login)**
 
 ### 🧬 DAFCS — Malware Detection on EMBER2024 (Beat the Published Baseline)
 
@@ -64,6 +64,7 @@ I design, develop, and secure systems end to end: full-stack applications, detec
 - **Task:** Build a tool that extracts exact, auditable counts from heterogeneous faculty documents into a ground-truth-format Excel workbook, usable by non-technical staff and adaptable to any department.
 - **Action:** Built a Streamlit app over a Python extraction engine with batch merge and de-duplication. Separated section extraction, entry segmentation, filtering, and counting so every count is `len(matched)` — never a number emitted by regex or an LLM. Added an optional Claude-based per-entry classifier with self-consistency voting for semantic rules, a PDF quality gate with OCR fallback (dehyphenation, column reflow, trust report), and unit tests for the counting and PDF-quality modules.
 - **Result:** A deterministic, auditable pipeline — every count traces back to the exact entries matched, segmentation method, and confidence level — eliminating LLM-miscount bugs and reducing manual compilation to an upload-and-download workflow.
+**Try it:  [https://ecen-fpr-v2-199137295144.us-central1.run.app](https://ecen-fpr-v2-199137295144.us-central1.run.app)**
 
 ---
 
