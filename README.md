@@ -1,6 +1,6 @@
 # Aarohi Mohrir
 
-**Cybersecurity Engineer · M.S. Computer Science, Texas A&M University**
+**M.S. Computer Science, Texas A&M University**
 
 I design, develop, and secure systems end to end: full-stack applications, detection pipelines mapped to MITRE ATT&CK, threat-exposure management platforms, ML malware detection that beats published baselines, and production AI applications hardened against real-world attacks. My work spans software development, cloud security, AI security, SOC operations, and infrastructure security.
 
