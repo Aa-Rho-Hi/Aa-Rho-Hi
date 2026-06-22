@@ -20,7 +20,7 @@ I design, develop, and secure systems end to end: full-stack applications, detec
 - **Action:** Designed a full pipeline — BFS site crawler with PII scrubbing and data-poisoning guards, hybrid retrieval (pgvector HNSW dense search + BM25 + RRF fusion + cross-encoder re-ranking), an LLM intent router, and a faculty knowledge graph. Hardened it with per-IP rate limiting, layered prompt-injection defense, mid-stream secret redaction, citation relevance gates, and structured audit logging. Deployed on Cloud Run with CI via Cloud Build and nightly automated re-indexing.
 - **Result:** A live public service answering department questions with grounded citations and an honest "couldn't find that" instead of hallucinations — security-screened at every layer from ingestion to output. **Try it: [ecen-chatbot-199137295144.us-central1.run.app](https://ecen-chatbot-199137295144.us-central1.run.app)**
 
-### 🛡️ ATLAS-CTEM — Continuous Threat Exposure Management Platform
+### 🛡️ ATLAS-CTEM — Continuous Threat Exposure Management Platform - **[Live](https://frontend-production-7be0.up.railway.app/login)**
 
 **Repo:** [CTEM](https://github.com/Aa-Rho-Hi/CTEM) · **Stack:** FastAPI (async), PostgreSQL, Celery/Redis, Neo4j/NetworkX, Next.js 16, Docker, Kubernetes
 
@@ -56,7 +56,7 @@ I design, develop, and secure systems end to end: full-stack applications, detec
 - **Action:** Built a static-analysis engine detecting SQL injection, XSS, command injection, `eval()` use, weak hashing (MD5/SHA1), insecure randomness, hardcoded secrets, and HTTP misuse — each scored with a weighted exploitability/impact model (Risk = E×0.6 + I×0.4) and rendered as inline highlights with hover explanations.
 - **Result:** A working shift-left security tool that gives per-finding severity, per-file average risk, and educational context inside the SSDLC's earliest stage.
 
-### 🤖 Claude-FPR — Faculty Annual Report (FAR) Extraction Pipeline
+### 🤖 Claude-FPR — Faculty Annual Report (FAR) Extraction Pipeline **[Live]-(https://ecen-fpr-v2-199137295144.us-central1.run.app)**
 
 **Repo:** [Claude-FPR](https://github.com/Aa-Rho-Hi/Claude-FPR) · **Stack:** Python, Streamlit, pdfplumber, Tesseract OCR, Claude API
 
